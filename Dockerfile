@@ -29,4 +29,4 @@ USER wildfly
 # This will boot WildFly in the standalone mode and bind to all interface
 CMD ["/opt/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0"]
 
-VOLUME ["/opt/wildfly-$WILDFLY_VERSION"]
+VOLUME ["/opt/wildfly-${WILDFLY_VERSION}"]
