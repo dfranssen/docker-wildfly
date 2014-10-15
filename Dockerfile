@@ -24,7 +24,7 @@ EXPOSE 8080 9990
 
 # Run everything below as the wildfly user from his home folder
 USER wildfly
-WORKDIR ["/opt/wildfly"]
+WORKDIR /opt/wildfly
 
 # Set the default command to run on boot
 # This will boot WildFly in the standalone mode and bind to all interface
